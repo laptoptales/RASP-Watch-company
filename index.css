@@ -9,6 +9,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box; 
+	scroll-behavior: smooth ;
     
 }
 .maindiv{
@@ -448,7 +449,7 @@ font-family: 'EB Garamond', serif;
         height: 750px;
         background-image: url(./images/bg2.jpg);
         background-size: cover;
-	scroll-behavior: smooth
+	scroll-behavior: smooth ;
         
         
 }
