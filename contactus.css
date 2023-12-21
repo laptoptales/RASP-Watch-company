@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    box-shadow: red;
+} 
+/* banner section styles */
+.banner {  
+    text-align: center;
+    /* background-color: #ffffff; */
+    margin: 0 auto;
+    /* padding-bottom:1px; */
+    background-color: lightcyan;
+    /* background-image: url(https://visme.co/blog/wp-content/uploads/2020/11/header.gif); */
+    /* background-repeat: repeat; */
+    /* background-size: cover; */
+     /* background-position: left;  */
+     border-radius: 10px;
+
+   
+    
+
+}
+ 
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+/* Contact form styles */
+.contact-form {
+    
+    padding: 40px 0;
+    margin: 0 10px;
+}
+
+.form-container {
+    /* padding-left: 100px; */
+    max-width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(14, 13, 13, 0.829);
+
+}
+ 
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+ 
+.form-group {
+    margin-bottom: 20px;
+}
+ 
+.form-container label {
+    display:block;
+    font-weight: bold;
+}
+.form-container input, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    resize: vertical;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #0dac30;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+ 
+/* Contact info styles */
+.contact-info {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f7f7f7;
+}
+ 
+.contact-info h2 {
+    margin-bottom: 20px;
+}
+ 
+/* Footer styles */
+footer {
+    padding: 50px;
+    height: 10px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
