@@ -16,7 +16,7 @@
     height: 770px;
     width: 100%;
     /* border: 2px solid red; */
-    background-image: url(/images/bg2.jpg);
+    background-image: url(./images/bg2.jpg);
     background-repeat:repeat;
     background-size: cover;
 }
@@ -244,7 +244,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-image: url(/images/bg3.jpg);
+    background-image: url(./images/bg3.jpg);
     /* position: relative; */
     background-size: cover;
     border-radius: 10px;
@@ -446,7 +446,7 @@ font-family: 'EB Garamond', serif;
         margin: 0;
         margin-top: 0px;
         height: 750px;
-        background-image: url(/images/bg2.jpg);
+        background-image: url(./images/bg2.jpg);
         background-size: cover;
         
         
@@ -696,7 +696,7 @@ font-family: 'EB Garamond', serif;
 /* ---------------- */
 .new_footer_area {
   background: #fbfbfd;
-  background-image: url(/images/bg2.jpg);
+  background-image: url(./images/bg2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
