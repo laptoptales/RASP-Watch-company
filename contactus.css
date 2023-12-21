@@ -8,6 +8,10 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     box-shadow: red;
+    
+     
+    
+    /* align-items: left; */
 } 
 /* banner section styles */
 .banner {  
@@ -15,18 +19,18 @@ body {
     /* background-color: #ffffff; */
     margin: 0 auto;
     /* padding-bottom:1px; */
-    background-color: lightcyan;
-    /* background-image: url(https://visme.co/blog/wp-content/uploads/2020/11/header.gif); */
-    /* background-repeat: repeat; */
-    /* background-size: cover; */
+    /* background-color: rgb(197, 37, 37); */
+    background-image: linear-gradient(to right , rgb(133, 223, 121) ,rgb(98, 135, 236) , rgb(249, 252, 78), rgb(230, 59, 59));
+    background-repeat:no-repeat;
+    background-size: cover;
      /* background-position: left;  */
      border-radius: 10px;
-
-   
-    
-
+     
+     /* background-image: url('https://i.makeagif.com/media/3-16-2018/sX7-6p.gif'); */
+     color: whitesmoke;
+     /* box-shadow: #333; */
+     font-weight: bolder;
 }
- 
 .banner img {
     max-width: 100%;
     height: auto;
@@ -36,6 +40,10 @@ body {
     
     padding: 40px 0;
     margin: 0 10px;
+    /* align-content:left; */
+    /* background-image: url('ezgif.com-video-to-gif-converted\ \(1\).gif'); */
+    color: black;
+
 }
 
 .form-container {
@@ -46,6 +54,13 @@ body {
     background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 10px 10px 10px rgba(14, 13, 13, 0.829);
+    /* align-content: flex-end; */
+    /* background-image: url('ezgif.com-video-to-gif-converted\ \(1\).gif'); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* color: #f7f7f7; */
+
+    
 
 }
  
@@ -100,3 +115,21 @@ footer {
     background-color: #333;
     color: white;
 }
+.logo{
+
+    padding-top: 10px;
+    height: 40px;
+    width: 70px;
+    box-shadow: 5px 5px 5px 4px black;
+    z-index: 3;
+
+}
+
+.h1{
+     
+    font-weight: bolder;
+    font-size: x-large;
+    color: black;
+}
+/* .banner .img{
+    /* opacity: 0.5;     */
