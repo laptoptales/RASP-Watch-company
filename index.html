@@ -274,11 +274,11 @@
                 </div>
                 <div class="container2" >
                     <div class="clockdiv">
-                        <img src="./images/clock.png" alt="" height="300px" width="300px" style="position: absolute;">
-                    <div class="but" id="but1"><button id="buttons" onclick="toggleDiv('box1')">M <br>e <br> n <br>s</button></div>
-                    <div class="but" id="but2"><button id="buttons" onclick="toggleDiv('box2')">K <br>i <br>d <br>s</button></div>
-                    <div class="but" id="but3"><button id="buttons" onclick="toggleDiv('box3')">Womens</button></div>
-                    <div class="but" id="but4"><button id="buttons" onclick="toggleDiv('box4')">Smart</button></div>
+                        <img src="./clock1.png" alt="" height="500px" width="500px" style="position: absolute;">
+                    <div class="but original-button2" id="but1"><button id="buttons" onclick="toggleDiv('box1')">M <br>e <br> n <br>s</button></div>
+                    <div class="but original-button2" id="but2"><button id="buttons" onclick="toggleDiv('box2')">K <br>i <br>d <br>s</button></div>
+                    <div class="but original-button" id="but3"><button id="buttons" onclick="toggleDiv('box3')">Womens</button></div>
+                    <div class="but original-button" id="but4"><button id="buttons" onclick="toggleDiv('box4')">Smart</button></div>
                     </div>
                     <div class="clickondesired heartbeat">
                         <h1>Click on desired option on clock</h1>
@@ -514,7 +514,6 @@
 
     </div>
     <script>
-        // Function to toggle the visibility of the divs
         function toggleDiv(boxId) {
             var box = document.getElementById(boxId);
             var boxes = document.querySelectorAll('.box');
@@ -524,11 +523,9 @@
                 boxes[i].style.display = 'none';
             }
 
-            // Show the selected box
             box.style.display = 'block';
         }
 
-        // Show the first box by default on page load
         window.onload = function () {
             toggleDiv('box1');
         };
