@@ -116,7 +116,12 @@
 
 }
 .clockdiv{
-    padding: 80px;
+  margin-top: -10px;
+  margin-left: -50px;
+    padding: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 200px;
 
 }
 .clockdiv img{
@@ -143,7 +148,6 @@
     /* border: 2px solid red; */
     border: none; 
     border-radius: 10%;
-    text-shadow: 0px 0px 10px black;
     /* animation-duration: 3s; */
 }
 #buttons:hover{
@@ -154,27 +158,26 @@
     text-shadow: 0px 0px 10px rgb(0, 26, 255);
 }
 #but1{
-    width:20px;
-    padding: 0;
-    margin: 0;
-    height: 40px;
+    /* width:20px;
+    
+    height: 40px; */
     top: 110px;
-    left: 226px;
+    left: 190px;
     
     /* display: flex */
 }
 #but2{
-    left: 224px;
-    top: 260px;
+    left: 190px;
+    top: 290px;
 }
 
 #but3{
-    top: 215px;
-    left: 120px;
+    top: 225px;
+    left: 80px;
 }
 #but4{
-    top: 220px;
-    left: 300px;
+    top: 224px;
+    left: 270px;
 }
 .clickondesired{
     margin-left: 50px;
@@ -185,6 +188,8 @@
     /* font-size: 10px; */
 }
 .clickondesired h1{
+  margin-left: -20px;
+  padding-left: 0px;
     font-size: 24px;
     font-weight: 800;
     align-items: center;
@@ -239,6 +244,51 @@
 /* frontpage ends */
 
 
+.original-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 5px;
+  width: 70px;
+  height: 30px;
+  font-weight: bold;
+  border-bottom: 4px solid #179e43;
+  transition: 0.3s;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.4);
+  background-color: #19d256;
+}
+.original-button2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 5px;
+  width: 20px;
+  height: 70px;
+  font-weight: bold;
+  border-bottom: 4px solid #179e43;
+  transition: 0.3s;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.4);
+  background-color: #19d256;
+}
+
+.original-button:hover {
+  box-shadow: 0 0 rgba(0, 0, 0, 0.4);
+  border-bottom-width: 2px;
+  transform: translateY(2px);
+}
+.original-button2:hover{
+  box-shadow: 0 0 rgba(0, 0, 0, 0.4);
+  border-bottom-width: 2px;
+  transform: translateY(2px);
+}
 
 
 .mens{
@@ -492,6 +542,11 @@ font-family: 'EB Garamond', serif;
     flex-direction:column;
     width:300px;
     margin-bottom:60px;
+    transition-duration: 1s;
+  }
+  .card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
   }
   .card>div{
     box-shadow:0 15px 20px 0 rgba(0,0,0,0.5);
@@ -536,6 +591,14 @@ font-family: 'EB Garamond', serif;
     display:flex;
     justify-content:center;
     align-items:center;
+    animation-duration: 3s;
+    transition-duration: 1s;
+  }
+  .card-price:hover{
+    height: 120px;
+    width: 120px;
+    color:#970C0A ;
+    background-color: #fff;
   }
 
   .header11{
@@ -692,6 +755,9 @@ font-family: 'EB Garamond', serif;
             transform: rotate(2deg);
   }
 }
+
+
+
 
 
 
